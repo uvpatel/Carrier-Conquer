@@ -4152,3 +4152,108 @@
 2025-06-09 12:08:54,207 - INFO - 127.0.0.1 - - [09/Jun/2025 12:08:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
 2025-06-09 12:08:56,205 - INFO - 127.0.0.1 - - [09/Jun/2025 12:08:56] "GET /chatbot HTTP/1.1" 200 -
 2025-06-09 12:08:56,306 - INFO - 127.0.0.1 - - [09/Jun/2025 12:08:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:25:41,814 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.190.56:5000
+2025-06-10 10:25:41,921 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 10:25:41,973 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-10 10:25:48,830 - WARNING -  * Debugger is active!
+2025-06-10 10:25:48,838 - INFO -  * Debugger PIN: 171-104-989
+2025-06-10 10:25:48,918 - INFO - 127.0.0.1 - - [10/Jun/2025 10:25:48] "GET / HTTP/1.1" 200 -
+2025-06-10 10:25:49,276 - INFO - 127.0.0.1 - - [10/Jun/2025 10:25:49] "GET /static/assets/Vrajbhai.jpg HTTP/1.1" 200 -
+2025-06-10 10:25:49,367 - INFO - 127.0.0.1 - - [10/Jun/2025 10:25:49] "GET /static/assets/Abhishekbhai.png HTTP/1.1" 200 -
+2025-06-10 10:25:49,370 - INFO - 127.0.0.1 - - [10/Jun/2025 10:25:49] "GET /static/assets/Rahulbhai.jpg HTTP/1.1" 200 -
+2025-06-10 10:25:49,374 - INFO - 127.0.0.1 - - [10/Jun/2025 10:25:49] "GET /static/assets/Khanjanbhai.jpg HTTP/1.1" 200 -
+2025-06-10 10:25:49,377 - INFO - 127.0.0.1 - - [10/Jun/2025 10:25:49] "GET /static/assets/Prathambhai.png HTTP/1.1" 200 -
+2025-06-10 10:25:49,410 - INFO - 127.0.0.1 - - [10/Jun/2025 10:25:49] "GET /static/assets/jaiminbhai.png HTTP/1.1" 200 -
+2025-06-10 10:25:49,758 - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+2025-06-10 10:25:49,794 - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-06-10 10:25:49,849 - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-06-10 10:25:49,882 - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2025-06-10 10:25:50,497 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-10 10:25:55,842 - WARNING -  * Debugger is active!
+2025-06-10 10:25:55,848 - INFO -  * Debugger PIN: 171-104-989
+2025-06-10 10:26:07,282 - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+2025-06-10 10:26:07,330 - INFO -  * Detected change in 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\routing\\matcher.py', reloading
+2025-06-10 10:26:07,360 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:26:07,375 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:07] "GET /static/assets/heer.jpg HTTP/1.1" 200 -
+2025-06-10 10:26:07,375 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:07] "GET /static/assets/Darshan.jpg HTTP/1.1" 200 -
+2025-06-10 10:26:07,378 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:07] "GET /static/assets/hiten.jpg HTTP/1.1" 200 -
+2025-06-10 10:26:07,378 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:07] "GET /static/assets/Urvil%20Patel.jpg HTTP/1.1" 200 -
+2025-06-10 10:26:08,350 - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-10 10:26:10,313 - WARNING -  * Debugger is active!
+2025-06-10 10:26:10,320 - INFO -  * Debugger PIN: 171-104-989
+2025-06-10 10:26:10,442 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:10] "GET /static/assets/Raj%20Shimpi%20Sir.jpg HTTP/1.1" 200 -
+2025-06-10 10:26:10,878 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:10] "GET /static/assets/Anshbhai.jpg HTTP/1.1" 200 -
+2025-06-10 10:26:10,950 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:10] "GET /static/assets/Arjunbhai.png HTTP/1.1" 200 -
+2025-06-10 10:26:11,380 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:11] "GET /static/assets/Karanbhai.jpg HTTP/1.1" 200 -
+2025-06-10 10:26:11,876 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:11] "GET /static/assets/sidhantbhai.jpg HTTP/1.1" 200 -
+2025-06-10 10:26:13,359 - INFO - 127.0.0.1 - - [10/Jun/2025 10:26:13] "GET /static/assets/Raj.jpg HTTP/1.1" 200 -
+2025-06-10 10:27:23,817 - INFO - 127.0.0.1 - - [10/Jun/2025 10:27:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:27:26,109 - INFO - 127.0.0.1 - - [10/Jun/2025 10:27:26] "GET /chatbot HTTP/1.1" 200 -
+2025-06-10 10:27:26,216 - INFO - 127.0.0.1 - - [10/Jun/2025 10:27:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:27:32,401 - INFO - Chat response generated for message: What skills do I need for a frontend developer role?
+2025-06-10 10:27:32,402 - INFO - 127.0.0.1 - - [10/Jun/2025 10:27:32] "POST /chat HTTP/1.1" 200 -
+2025-06-10 10:27:53,985 - INFO - Chat response generated for message: i become coputer engineer,give me roadmap
+2025-06-10 10:27:53,986 - INFO - 127.0.0.1 - - [10/Jun/2025 10:27:53] "POST /chat HTTP/1.1" 200 -
+2025-06-10 10:28:02,491 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:02] "GET /resume_analyser.html HTTP/1.1" 200 -
+2025-06-10 10:28:02,581 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:28:36,739 - INFO - Processing file: vraj-resume.pdf
+2025-06-10 10:28:46,755 - INFO - Sending request to Gemini API.
+2025-06-10 10:28:46,756 - INFO - Received response from Gemini API.
+2025-06-10 10:28:46,759 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:46] "POST /analyze HTTP/1.1" 200 -
+2025-06-10 10:28:46,832 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:28:54,908 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:54] "GET /skill-assessments HTTP/1.1" 200 -
+2025-06-10 10:28:57,695 - INFO - 127.0.0.1 - - [10/Jun/2025 10:28:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:29:14,986 - INFO - 127.0.0.1 - - [10/Jun/2025 10:29:14] "GET /roadmaps HTTP/1.1" 200 -
+2025-06-10 10:29:15,064 - INFO - 127.0.0.1 - - [10/Jun/2025 10:29:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:29:34,534 - INFO - 127.0.0.1 - - [10/Jun/2025 10:29:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 10:29:40,208 - INFO - 127.0.0.1 - - [10/Jun/2025 10:29:40] "GET /login HTTP/1.1" 200 -
+2025-06-10 10:29:40,254 - INFO - 127.0.0.1 - - [10/Jun/2025 10:29:40] "GET /static/css/auth.css HTTP/1.1" 200 -
+2025-06-10 10:29:40,314 - INFO - 127.0.0.1 - - [10/Jun/2025 10:29:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:52:35,626 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:52:37,597 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:37] "GET / HTTP/1.1" 200 -
+2025-06-10 17:52:37,743 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:37] "[36mGET /static/assets/Abhishekbhai.png HTTP/1.1[0m" 304 -
+2025-06-10 17:52:37,749 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:37] "[36mGET /static/assets/Prathambhai.png HTTP/1.1[0m" 304 -
+2025-06-10 17:52:37,786 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:37] "[36mGET /static/assets/Rahulbhai.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:52:37,809 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:37] "[36mGET /static/assets/jaiminbhai.png HTTP/1.1[0m" 304 -
+2025-06-10 17:52:37,833 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:52:37,833 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:37] "[36mGET /static/assets/Vrajbhai.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:52:37,835 - INFO - 127.0.0.1 - - [10/Jun/2025 17:52:37] "[36mGET /static/assets/Khanjanbhai.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:04,907 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:04] "[36mGET /static/assets/Urvil%20Patel.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:04,916 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:04] "[36mGET /static/assets/hiten.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:04,964 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:04] "[36mGET /static/assets/Darshan.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:04,992 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:04] "[36mGET /static/assets/heer.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:05,044 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:54:08,591 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:08] "[36mGET /static/assets/Raj%20Shimpi%20Sir.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:09,003 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:09] "[36mGET /static/assets/Anshbhai.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:09,470 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:09] "[36mGET /static/assets/Arjunbhai.png HTTP/1.1[0m" 304 -
+2025-06-10 17:54:09,596 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:09] "[36mGET /static/assets/Karanbhai.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:09,629 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:09] "[36mGET /static/assets/sidhantbhai.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:11,078 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:11] "[36mGET /static/assets/Raj.jpg HTTP/1.1[0m" 304 -
+2025-06-10 17:54:25,663 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:25] "GET /chatbot HTTP/1.1" 200 -
+2025-06-10 17:54:25,823 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:54:31,844 - INFO - Chat response generated for message: What skills do I need for a frontend developer role?
+2025-06-10 17:54:31,846 - INFO - 127.0.0.1 - - [10/Jun/2025 17:54:31] "POST /chat HTTP/1.1" 200 -
+2025-06-10 17:55:06,471 - INFO - Chat response generated for message: I want to choose computer science fuilde what should i do to persue good carrer in it
+2025-06-10 17:55:06,472 - INFO - 127.0.0.1 - - [10/Jun/2025 17:55:06] "POST /chat HTTP/1.1" 200 -
+2025-06-10 17:55:17,175 - INFO - 127.0.0.1 - - [10/Jun/2025 17:55:17] "GET /resume_analyser.html HTTP/1.1" 200 -
+2025-06-10 17:55:17,323 - INFO - 127.0.0.1 - - [10/Jun/2025 17:55:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:55:44,919 - INFO - Processing file: vraj-resume.pdf
+2025-06-10 17:55:53,705 - INFO - Sending request to Gemini API.
+2025-06-10 17:55:53,706 - INFO - Received response from Gemini API.
+2025-06-10 17:55:53,708 - INFO - 127.0.0.1 - - [10/Jun/2025 17:55:53] "POST /analyze HTTP/1.1" 200 -
+2025-06-10 17:55:53,860 - INFO - 127.0.0.1 - - [10/Jun/2025 17:55:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:56:09,091 - INFO - Processing file: WhatsApp_Image_2025-06-06_at_23.45.12_b438975d.jpg
+2025-06-10 17:56:18,137 - INFO - Sending request to Gemini API.
+2025-06-10 17:56:18,140 - INFO - Received response from Gemini API.
+2025-06-10 17:56:18,144 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:18] "POST /analyze HTTP/1.1" 200 -
+2025-06-10 17:56:18,286 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:56:26,387 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:26] "GET /skill-assessments HTTP/1.1" 200 -
+2025-06-10 17:56:31,714 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:56:43,563 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:43] "GET /roadmaps HTTP/1.1" 200 -
+2025-06-10 17:56:43,656 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-06-10 17:56:49,432 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:49] "GET /login HTTP/1.1" 200 -
+2025-06-10 17:56:49,489 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:49] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2025-06-10 17:56:49,588 - INFO - 127.0.0.1 - - [10/Jun/2025 17:56:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
