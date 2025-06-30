@@ -20,7 +20,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('app.log'),
+        # logging.FileHandler('app.log'), # Uncomment to log to a file (this will not work in vercel deployment or you can save it in /tmp/app.log for vercel)
         logging.StreamHandler()
     ]
 )
@@ -269,5 +269,5 @@ def chat():
         logging.error(f"Error during chat: {str(e)}")
         return jsonify({"success": False, "error": "An error occurred while processing your message."}), 500
     
-if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=5000)
+# if __name__ == "__main__":
+#     app.run(debug=True, host='0.0.0.0', port=5000)
