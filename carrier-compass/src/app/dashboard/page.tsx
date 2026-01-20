@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Roadmaps = () => {
+const page = () => {
   return (
     <div>
-      Roadmap
+      Dashboard
     </div>
   )
 }
 
-export default Roadmaps
+export default page
