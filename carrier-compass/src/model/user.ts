@@ -1,7 +1,8 @@
-import mongoose , { Schema } from "mongoose";
+import mongoose , { model, models, Schema } from "mongoose";
 import bcrypt from "bcrypt";
+import { IUser } from "@/types/modeltype";
 
-const userSchema = new  Schema ({
+const userSchema = new  Schema<IUser> ({
     username: {
         type: String,
         required: true,
@@ -19,3 +20,8 @@ const userSchema = new  Schema ({
 
     }
 })
+
+
+const User = models.User || model<IUser>("User", userSchema) ;
+
+export default User
