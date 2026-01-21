@@ -1,77 +1,79 @@
+import { Lightbulb, MessagesSquare, Network, NetworkIcon, TrendingUp, UserRound } from "lucide-react";
 import { cn } from "@/lib/utils";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
-import {
-    IconArrowWaveRightUp,
-    IconBoxAlignRightFilled,
-    IconBoxAlignTopLeft,
-    IconClipboardCopy,
-    IconFileBroken,
-    IconSignature,
-    IconTableColumn,
-} from "@tabler/icons-react";
+
 
 export function FeatureGrid() {
     return (
-        <BentoGrid className="max-w-4xl mx-auto">
-            {items.map((item, i) => (
-                <BentoGridItem
-                    key={i}
-                    title={item.title}
-                    description={item.description}
-                    header={item.header}
-                    icon={item.icon}
-                    className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-                />
-            ))}
-        </BentoGrid>
+        <section>
+            <h1 className="flex justify-center m-4 mx-auto text-3xl text-neutral-400">Features</h1>
+            <BentoGrid className="max-w-4xl mx-auto">
+                {items.map((item, i) => (
+                    <BentoGridItem
+                        key={i}
+                        title={item.title}
+                        description={item.description}
+                        header={item.header}
+                        icon={item.icon}
+                        className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+                    />
+                ))}
+            </BentoGrid>
+        </section>
     );
 }
 const Skeleton = () => (
-    <div className="flex flex-1 w-full h-full min-h-24 rounded-xl bg-linear-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
+    <div className="flex flex-1 w-full h-full min-h-24 rounded-xl bg-linear-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+
+    </div>
 );
+
+
+
+
 const items = [
     {
-        title: "The Dawn of Innovation",
-        description: "Explore the birth of groundbreaking ideas and inventions.",
+        title: "Skills Assessment",
+        description: "Analyze your technical, soft, and industry-specific skills to understand your strengths.",
         header: <Skeleton />,
-        icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+        icon: <UserRound className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "The Digital Revolution",
-        description: "Dive into the transformative power of technology.",
+        title: "Market Analysis",
+        description: "Compare your skills with current job market demands to identify opportunities.",
         header: <Skeleton />,
-        icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+        icon: <TrendingUp className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "The Art of Design",
-        description: "Discover the beauty of thoughtful and functional design.",
+        title: "Career Matching",
+        description: "Get personalized career suggestions based on your skills and market needs.",
         header: <Skeleton />,
-        icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+        icon: <MessagesSquare className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "The Power of Communication",
-        description:
-            "Understand the impact of effective communication in our lives.",
+        title: "Resume Builder",
+        description: "Create effective resumes tailored to your target roles with AI assistance.",
         header: <Skeleton />,
-        icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+        icon: <Lightbulb className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "The Pursuit of Knowledge",
-        description: "Join the quest for understanding and enlightenment.",
+        title: "Interview Prep",
+        description: "Practice with AI-generated interview questions specific to your desired jobs.",
         header: <Skeleton />,
-        icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
+        icon: <Network className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "The Joy of Creation",
-        description: "Experience the thrill of bringing ideas to life.",
+        title: "Networking",
+        description: "Discover valuable professional connections and networking opportunities.",
         header: <Skeleton />,
-        icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+        icon: <NetworkIcon className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "The Spirit of Adventure",
-        description: "Embark on exciting journeys and thrilling discoveries.",
+        title: "Skills Assessment",
+        description: "Analyze your technical, soft, and industry-specific skills to understand your strengths.",
         header: <Skeleton />,
-        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+        icon: <UserRound className="h-4 w-4 text-neutral-500" />,
     },
+
 ];
